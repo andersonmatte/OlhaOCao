@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.andersonmatte.olhaocao">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_cao"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="br.com.andersonmatte.olhaocao.activities.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.andersonmatte.olhaocao.activities.CaoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.andersonmatte.olhaocao.activities.FavoritosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.andersonmatte.olhaocao.activities.HomeActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

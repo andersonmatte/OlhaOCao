@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Olha O Cão</string>
+    <string name="app_no_name"> </string>
+    <string name="textHome">Com o APP Olha O Cão, você poderá navegar em uma grande lista de imagens de cães.
+Você poderá também marcar seus favoritos, escolha sua foto favorita e proto ela estará sempre com você no app.
+E como você gosta de cães deve ter um, correto? Por isso no APP Olha O Cão, você também vai poder tirar fotos de seus cães e colocar na sua listagem de favoritos.</string>
+    <string name="buttonCao">VER MAIS CÃES</string>
+    <string name="sair">Sair?</string>
+    <string name="sair_app">Deseja mesmo sair do aplicativo?</string>
+    <string name="sim">SIM</string>
+    <string name="nao">NÃO</string>
+    <string name="download">Salvar?</string>
+    <string name="salvar_imagem">Deseja mesmo fazer o download da imagem?</string>
+    <string name="nao_complemento">Que bom, Continue vendo mais fotos.</string>
+    <string name="nao_salvar">Legal, Continue vendo mais fotos.</string>
+    <string name="warning">Aguarde, carregando imagens...</string>
+    <string name="erro_buscar_cao">Erro na busca do serviço de busca cão.</string>
+    <string name="erro_nenhuma_imagem">Ops.. Voçê ainda não tem imagens favoritas.</string>
+    <string name="registro_favoritado">Imagem adicionada aos favoritos.</string>
+    <string name="registro_nao_favoritado">Imagem foi removida dos favoritos.</string>
+    <string name="salvar_imagem_download">Download realizado com sucesso!.</string>
+    <string name="key">94e4830d-dad6-43fe-a29d-4674178ba005</string>
+    <!--Itens do menu -->
+    <string name="menuHeader">Menu</string>
+    <string name="abrir">Abrir</string>
+    <string name="fechar">Fechar</string>
+    <string name="menuItem1">Home</string>
+    <string name="menuItem2">Cães</string>
+    <string name="menuItem3">Favoritos</string>
+    <string name="menuItem4">Sair</string>
+
+</resources>

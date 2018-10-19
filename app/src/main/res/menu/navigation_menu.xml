@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/nav_home"
+        android:title="@string/menuItem1"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_home_black_18dp"
+        android:actionLayout="@layout/activity_home"/>
+
+    <item android:id="@+id/nav_caes"
+        android:title="@string/menuItem2"
+        android:icon="@drawable/logocao"
+        app:showAsAction="always"
+        android:actionLayout="@layout/activity_cao"/>
+
+    <item android:id="@+id/nav_favoritos"
+        android:title="@string/menuItem3"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_favorite_black_18dp"
+        android:actionLayout="@layout/activity_favoritos"/>
+
+    <item android:id="@+id/nav_sair"
+        android:title="@string/menuItem4"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_reply_black_18dp" />
+
+</menu>
